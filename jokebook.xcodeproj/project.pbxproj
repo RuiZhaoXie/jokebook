@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D0C29F08C5031B3A710F63 /* libPods-jokebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FACAFA4078FE1E903FE927F /* libPods-jokebook.a */; };
+		F802E8A21C0EE0050074291A /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F802E8A11C0EE0050074291A /* RootNavigationController.m */; };
+		F80450A21C24582400F8F141 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F80450A11C24582400F8F141 /* HttpRequest.m */; };
+		F892C1F51C0DCF6A001EDB05 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F892C1F41C0DCF6A001EDB05 /* RootTabBarController.m */; };
 		F8DC488C1C0DC6570052B59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DC488B1C0DC6570052B59A /* main.m */; };
 		F8DC488F1C0DC6570052B59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DC488E1C0DC6570052B59A /* AppDelegate.m */; };
-		F8DC48921C0DC6570052B59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DC48911C0DC6570052B59A /* ViewController.m */; };
 		F8DC48951C0DC6570052B59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DC48931C0DC6570052B59A /* Main.storyboard */; };
 		F8DC48971C0DC6570052B59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DC48961C0DC6570052B59A /* Assets.xcassets */; };
 		F8DC489A1C0DC6570052B59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DC48981C0DC6570052B59A /* LaunchScreen.storyboard */; };
 		F8DC48A51C0DC6570052B59A /* jokebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DC48A41C0DC6570052B59A /* jokebookTests.m */; };
 		F8DC48B01C0DC6570052B59A /* jokebookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DC48AF1C0DC6570052B59A /* jokebookUITests.m */; };
+		FC577EEC1C16712E00F5E951 /* XRFunnyImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC577EEB1C16712E00F5E951 /* XRFunnyImageTableViewController.m */; };
+		FC577EF81C16B9D400F5E951 /* XRFunnyImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC577EF71C16B9D400F5E951 /* XRFunnyImageTableViewCell.m */; };
+		FC64D44B1C429C8A009C7743 /* XRDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC64D44A1C429C8A009C7743 /* XRDataParser.m */; };
+		FC64D44E1C429E3F009C7743 /* XRHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC64D44D1C429E3F009C7743 /* XRHttpRequest.m */; };
+		FC64D4531C42A524009C7743 /* UITableViewController+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FC64D4521C42A524009C7743 /* UITableViewController+MJRefresh.m */; };
+		FC72FAC71C1B0B4A002274F1 /* XRRealmWork.m in Sources */ = {isa = PBXBuildFile; fileRef = FC72FAC61C1B0B4A002274F1 /* XRRealmWork.m */; };
+		FC7484BE1C1FA655008FCCDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7484BD1C1FA655008FCCDC /* SystemConfiguration.framework */; };
+		FC7484C71C1FFD13008FCCDC /* XRJoke.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7484C61C1FFD13008FCCDC /* XRJoke.m */; };
+		FC7484CA1C20573F008FCCDC /* XRFunnyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7484C91C20573F008FCCDC /* XRFunnyImage.m */; };
+		FCDA112F1C1313A60032EBDB /* XRJokeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA112E1C1313A60032EBDB /* XRJokeListTableViewController.m */; };
+		FCDA11381C14386A0032EBDB /* XRJokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA11371C14386A0032EBDB /* XRJokeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FACAFA4078FE1E903FE927F /* libPods-jokebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jokebook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FECFDB39CAF70EDE47EE26 /* Pods-jokebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jokebook/Pods-jokebook.debug.xcconfig"; sourceTree = "<group>"; };
+		B9FC619BB0BB74B3D4924333 /* Pods-jokebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-jokebook/Pods-jokebook.release.xcconfig"; sourceTree = "<group>"; };
+		F802E8A01C0EE0050074291A /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		F802E8A11C0EE0050074291A /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		F80450A01C24582400F8F141 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		F80450A11C24582400F8F141 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		F892C1F31C0DCF6A001EDB05 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		F892C1F41C0DCF6A001EDB05 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		F892C1F61C0DD090001EDB05 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F8DC48871C0DC6570052B59A /* jokebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jokebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DC488B1C0DC6570052B59A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8DC488D1C0DC6570052B59A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8DC488E1C0DC6570052B59A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F8DC48901C0DC6570052B59A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F8DC48911C0DC6570052B59A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F8DC48941C0DC6570052B59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8DC48961C0DC6570052B59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8DC48991C0DC6570052B59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +73,27 @@
 		F8DC48AB1C0DC6570052B59A /* jokebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jokebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DC48AF1C0DC6570052B59A /* jokebookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jokebookUITests.m; sourceTree = "<group>"; };
 		F8DC48B11C0DC6570052B59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC577EEA1C16712E00F5E951 /* XRFunnyImageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRFunnyImageTableViewController.h; sourceTree = "<group>"; };
+		FC577EEB1C16712E00F5E951 /* XRFunnyImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRFunnyImageTableViewController.m; sourceTree = "<group>"; };
+		FC577EF61C16B9D400F5E951 /* XRFunnyImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRFunnyImageTableViewCell.h; sourceTree = "<group>"; };
+		FC577EF71C16B9D400F5E951 /* XRFunnyImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRFunnyImageTableViewCell.m; sourceTree = "<group>"; };
+		FC64D4491C429C8A009C7743 /* XRDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRDataParser.h; sourceTree = "<group>"; };
+		FC64D44A1C429C8A009C7743 /* XRDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRDataParser.m; sourceTree = "<group>"; };
+		FC64D44C1C429E3F009C7743 /* XRHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRHttpRequest.h; sourceTree = "<group>"; };
+		FC64D44D1C429E3F009C7743 /* XRHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRHttpRequest.m; sourceTree = "<group>"; };
+		FC64D4511C42A524009C7743 /* UITableViewController+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+MJRefresh.h"; sourceTree = "<group>"; };
+		FC64D4521C42A524009C7743 /* UITableViewController+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+MJRefresh.m"; sourceTree = "<group>"; };
+		FC72FAC51C1B0B4A002274F1 /* XRRealmWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XRRealmWork.h; path = ../XRRealmWork.h; sourceTree = "<group>"; };
+		FC72FAC61C1B0B4A002274F1 /* XRRealmWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XRRealmWork.m; path = ../XRRealmWork.m; sourceTree = "<group>"; };
+		FC7484BD1C1FA655008FCCDC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC7484C51C1FFD13008FCCDC /* XRJoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRJoke.h; sourceTree = "<group>"; };
+		FC7484C61C1FFD13008FCCDC /* XRJoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRJoke.m; sourceTree = "<group>"; };
+		FC7484C81C20573F008FCCDC /* XRFunnyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRFunnyImage.h; sourceTree = "<group>"; };
+		FC7484C91C20573F008FCCDC /* XRFunnyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRFunnyImage.m; sourceTree = "<group>"; };
+		FCDA112D1C1313A60032EBDB /* XRJokeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XRJokeListTableViewController.h; path = Main/XRJokeListTableViewController.h; sourceTree = "<group>"; };
+		FCDA112E1C1313A60032EBDB /* XRJokeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XRJokeListTableViewController.m; path = Main/XRJokeListTableViewController.m; sourceTree = "<group>"; };
+		FCDA11361C14386A0032EBDB /* XRJokeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRJokeTableViewCell.h; sourceTree = "<group>"; };
+		FCDA11371C14386A0032EBDB /* XRJokeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRJokeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7484BE1C1FA655008FCCDC /* SystemConfiguration.framework in Frameworks */,
+				03D0C29F08C5031B3A710F63 /* libPods-jokebook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +123,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BB0CE7FBBE70DC4F8D775BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1FECFDB39CAF70EDE47EE26 /* Pods-jokebook.debug.xcconfig */,
+				B9FC619BB0BB74B3D4924333 /* Pods-jokebook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F66D387AEA808D17515B2817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7484BD1C1FA655008FCCDC /* SystemConfiguration.framework */,
+				6FACAFA4078FE1E903FE927F /* libPods-jokebook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F802E8A31C0EE2C70074291A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F80450A01C24582400F8F141 /* HttpRequest.h */,
+				F80450A11C24582400F8F141 /* HttpRequest.m */,
+				FC64D4491C429C8A009C7743 /* XRDataParser.h */,
+				FC64D44A1C429C8A009C7743 /* XRDataParser.m */,
+				FC64D44C1C429E3F009C7743 /* XRHttpRequest.h */,
+				FC64D44D1C429E3F009C7743 /* XRHttpRequest.m */,
+				FC64D4511C42A524009C7743 /* UITableViewController+MJRefresh.h */,
+				FC64D4521C42A524009C7743 /* UITableViewController+MJRefresh.m */,
+				FC7484C11C1FAAA8008FCCDC /* other */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F827688A1C0DCAA500B08AE8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F892C1F31C0DCF6A001EDB05 /* RootTabBarController.h */,
+				F892C1F41C0DCF6A001EDB05 /* RootTabBarController.m */,
+				F802E8A01C0EE0050074291A /* RootNavigationController.h */,
+				F802E8A11C0EE0050074291A /* RootNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F85336091C0DC849008ADC00 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F827688A1C0DCAA500B08AE8 /* Main */,
+				FCDA112D1C1313A60032EBDB /* XRJokeListTableViewController.h */,
+				FCDA112E1C1313A60032EBDB /* XRJokeListTableViewController.m */,
+				FC577EEA1C16712E00F5E951 /* XRFunnyImageTableViewController.h */,
+				FC577EEB1C16712E00F5E951 /* XRFunnyImageTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F853360A1C0DC849008ADC00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC7484C51C1FFD13008FCCDC /* XRJoke.h */,
+				FC7484C61C1FFD13008FCCDC /* XRJoke.m */,
+				FC7484C81C20573F008FCCDC /* XRFunnyImage.h */,
+				FC7484C91C20573F008FCCDC /* XRFunnyImage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F853360B1C0DC849008ADC00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA11361C14386A0032EBDB /* XRJokeTableViewCell.h */,
+				FCDA11371C14386A0032EBDB /* XRJokeTableViewCell.m */,
+				FC577EF61C16B9D400F5E951 /* XRFunnyImageTableViewCell.h */,
+				FC577EF71C16B9D400F5E951 /* XRFunnyImageTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F8DC487E1C0DC6570052B59A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +209,8 @@
 				F8DC48A31C0DC6570052B59A /* jokebookTests */,
 				F8DC48AE1C0DC6570052B59A /* jokebookUITests */,
 				F8DC48881C0DC6570052B59A /* Products */,
+				6BB0CE7FBBE70DC4F8D775BD /* Pods */,
+				F66D387AEA808D17515B2817 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +229,10 @@
 			children = (
 				F8DC488D1C0DC6570052B59A /* AppDelegate.h */,
 				F8DC488E1C0DC6570052B59A /* AppDelegate.m */,
-				F8DC48901C0DC6570052B59A /* ViewController.h */,
-				F8DC48911C0DC6570052B59A /* ViewController.m */,
+				F802E8A31C0EE2C70074291A /* Utils */,
+				F85336091C0DC849008ADC00 /* Controllers */,
+				F853360A1C0DC849008ADC00 /* Models */,
+				F853360B1C0DC849008ADC00 /* Views */,
 				F8DC48931C0DC6570052B59A /* Main.storyboard */,
 				F8DC48961C0DC6570052B59A /* Assets.xcassets */,
 				F8DC48981C0DC6570052B59A /* LaunchScreen.storyboard */,
@@ -118,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				F8DC488B1C0DC6570052B59A /* main.m */,
+				F892C1F61C0DD090001EDB05 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +269,15 @@
 			path = jokebookUITests;
 			sourceTree = "<group>";
 		};
+		FC7484C11C1FAAA8008FCCDC /* other */ = {
+			isa = PBXGroup;
+			children = (
+				FC72FAC51C1B0B4A002274F1 /* XRRealmWork.h */,
+				FC72FAC61C1B0B4A002274F1 /* XRRealmWork.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8DC48B41C0DC6570052B59A /* Build configuration list for PBXNativeTarget "jokebook" */;
 			buildPhases = (
+				C63B1EAE48F39111361A08CD /* Check Pods Manifest.lock */,
 				F8DC48831C0DC6570052B59A /* Sources */,
 				F8DC48841C0DC6570052B59A /* Frameworks */,
 				F8DC48851C0DC6570052B59A /* Resources */,
+				7D97EFCCC4F01293713893B0 /* Embed Pods Frameworks */,
+				661842B4BC7AD4C5297AF969 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +406,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		661842B4BC7AD4C5297AF969 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jokebook/Pods-jokebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D97EFCCC4F01293713893B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jokebook/Pods-jokebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63B1EAE48F39111361A08CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F8DC48831C0DC6570052B59A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DC48921C0DC6570052B59A /* ViewController.m in Sources */,
+				FCDA112F1C1313A60032EBDB /* XRJokeListTableViewController.m in Sources */,
+				FC577EEC1C16712E00F5E951 /* XRFunnyImageTableViewController.m in Sources */,
+				FC64D44B1C429C8A009C7743 /* XRDataParser.m in Sources */,
+				F892C1F51C0DCF6A001EDB05 /* RootTabBarController.m in Sources */,
+				F802E8A21C0EE0050074291A /* RootNavigationController.m in Sources */,
+				FC7484CA1C20573F008FCCDC /* XRFunnyImage.m in Sources */,
+				FC64D4531C42A524009C7743 /* UITableViewController+MJRefresh.m in Sources */,
+				FCDA11381C14386A0032EBDB /* XRJokeTableViewCell.m in Sources */,
+				FC577EF81C16B9D400F5E951 /* XRFunnyImageTableViewCell.m in Sources */,
 				F8DC488F1C0DC6570052B59A /* AppDelegate.m in Sources */,
 				F8DC488C1C0DC6570052B59A /* main.m in Sources */,
+				FC64D44E1C429E3F009C7743 /* XRHttpRequest.m in Sources */,
+				FC72FAC71C1B0B4A002274F1 /* XRRealmWork.m in Sources */,
+				FC7484C71C1FFD13008FCCDC /* XRJoke.m in Sources */,
+				F80450A21C24582400F8F141 /* HttpRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,9 +612,13 @@
 		};
 		F8DC48B51C0DC6570052B59A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FECFDB39CAF70EDE47EE26 /* Pods-jokebook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = jokebook/PrefixHeader.pch;
 				INFOPLIST_FILE = jokebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waiting.jokebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +627,13 @@
 		};
 		F8DC48B61C0DC6570052B59A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FC619BB0BB74B3D4924333 /* Pods-jokebook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = jokebook/PrefixHeader.pch;
 				INFOPLIST_FILE = jokebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waiting.jokebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +707,7 @@
 				F8DC48B61C0DC6570052B59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8DC48B71C0DC6570052B59A /* Build configuration list for PBXNativeTarget "jokebookTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +716,7 @@
 				F8DC48B91C0DC6570052B59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8DC48BA1C0DC6570052B59A /* Build configuration list for PBXNativeTarget "jokebookUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +725,7 @@
 				F8DC48BC1C0DC6570052B59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
